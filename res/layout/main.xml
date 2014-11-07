@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="[Hot news: Tokyo to host the Olympics and Paralympics games in 2020!]" 
+        android:layout_weight=".1"/>
+    <WebView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/my_webview"
+        android:layout_weight=".8"
+        android:layout_margin="16dip"/>
+     <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="[Schedule|Map|Eat|Visit|Learn]"
+        android:layout_weight=".1"
+        android:gravity="bottom"/>
+     <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Open source app, help us at https://github.com/Next-Stage/Tokyo2020"
+        android:layout_weight=".1"
+        android:gravity="bottom"/>
+</LinearLayout>
