@@ -20,6 +20,6 @@ public class Main extends Activity {
                 return true;
             }
         });
-        wv.loadUrl("file:///android_asset/Odaiba.html");
+        wv.loadUrl("file:///android_asset/Tokyo_Odaiba.html");
     }
 }
